@@ -90,6 +90,52 @@ flarum-best-answer:
   ref:
     best_answer: ベストアンサー
 
+# Reactions
+reflar-reactions:
+  forum:
+    warning: あなたのリアクションは変換されました。
+    notification: '{username}が{reaction}をあなたの投稿につけました'
+    settings:
+        notify_post_reacted_label: 誰かがあなたの投稿にリアクションをつけました
+
+  admin:
+    permissions:
+        react_posts_label: 投稿にリアクションをつける
+
+    nav:
+      desc: 新しいリアクションを追加して、設定を変更する
+
+    page:
+      reactions:
+        title: カスタムリアクション
+        reactions: 現在のリアクション
+        Helptext: リアクションの名前(識別名)を入力、もしくはあなたの好きなFontAwesomeのアイコンを選択して下さい
+        help:
+          identifier: 識別名
+
+      convert:
+        help: どれかのエクステンションをアップデートした場合に、 あなたのリアクションは変換されます。このエクステンションをインストールした場合は、このメッセージを無視しても構いません。
+        button: 古いリアクションを変換する
+        converting: リアクションを変換中です。変換が終了するまで数分待ってから、サイトをリロードして下さい。(変換時間はリアクションの量に比例します)
+        converted: "{number}個全てのイイねの変換に成功しました。"
+
+      settings:
+        save_settings: 設定を保存する
+        integrations:
+          legend: 統合機能
+          warning: 同じリアクションはイイねと高評価に変換できません
+          gamification:
+            legend: Gamification
+            upvoteLabel: リアクションを高評価に変換する
+            upvoteHelptext: 高評価に変換したいリアクションの識別名を入力して下さい
+            downvoteLabel: リアクションを低評価に変換する
+            downvoteHelptext: 低評価に変換したいリアクションの識別名を入力して下さい
+
+          likes:
+            legend: イイね
+            Label: リアクションをイイねに変換する
+            Helptext: イイねに変換したいリアクションの識別名を入力して下さい
+
 # Share Social
 fof-share-social:
   forum:
