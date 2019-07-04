@@ -1,5 +1,5 @@
 # Flarum-Japanese-Language
-Flarumの日本語拡張言語パック
+Flarumの日本語拡張言語パック  
 エクステンションに対応する用
 
 ## 対応リスト
