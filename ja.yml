@@ -89,3 +89,27 @@ flarum-best-answer:
     content: あなたの質問に回答がついている場合、ベストアンサーを選んで下さい
   ref:
     best_answer: ベストアンサー
+
+# Share Social
+fof-share-social:
+  forum:
+    discussion:
+      share_button: 共有する
+
+    modal:
+      title: 共有する
+
+  admin:
+    settings:
+      title: FriendsOfFlarum Share Social
+
+  lib:
+    networks:
+      facebook: Facebook
+      twitter: Twitter
+      linkedin: LinkedIn
+      reddit: Reddit
+
+      vkontakte: VKontakte
+      odnoklassniki: Odnoklassniki
+      my_mail: My World
